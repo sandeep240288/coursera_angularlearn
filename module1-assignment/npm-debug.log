@@ -1,0 +1,165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular',
+1 verbose cli   '1.7' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose config Skipping project config: C:\Users\BHEL/.npmrc. (matches userconfig)
+5 verbose install initial load of C:\Users\BHEL\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\BHEL\node_modules\angular\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\BHEL\node_modules\browser-sync\package.json
+8 verbose readDependencies loading dependencies from C:\Users\BHEL\package.json
+9 verbose install angular is installed as 1.5.8
+10 silly cache add args [ 'angular', null ]
+11 verbose cache add spec angular
+12 silly cache add args [ '1.7', null ]
+13 verbose cache add spec 1.7
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'angular',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'angular',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: 'latest',
+14 silly cache add   type: 'tag' }
+15 silly addNamed angular@latest
+16 verbose addNamed "latest" is being treated as a dist-tag for angular
+17 info addNameTag [ 'angular', 'latest' ]
+18 silly mapToRegistry name angular
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry http://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'angular',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   name: 'angular',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri http://registry.npmjs.org/angular
+23 verbose addNameTag registry:http://registry.npmjs.org/angular not in flight; fetching
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '1.7',
+24 silly cache add   scope: null,
+24 silly cache add   name: '1.7',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: 'latest',
+24 silly cache add   type: 'tag' }
+25 silly addNamed 1.7@latest
+26 verbose addNamed "latest" is being treated as a dist-tag for 1.7
+27 info addNameTag [ '1.7', 'latest' ]
+28 silly mapToRegistry name 1.7
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry http://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: '1.7',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: '1.7',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri http://registry.npmjs.org/1.7
+33 verbose addNameTag registry:http://registry.npmjs.org/1.7 not in flight; fetching
+34 verbose request uri http://registry.npmjs.org/1.7
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 3:04:15 PM
+37 verbose request id 91ae28cff0040cd6
+38 http request GET http://registry.npmjs.org/1.7
+39 verbose request uri http://registry.npmjs.org/angular
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 3:04:15 PM
+42 verbose etag "8CHKXD10QU7LCUN887XZR72C"
+43 http request GET http://registry.npmjs.org/angular
+44 http 304 http://registry.npmjs.org/angular
+45 verbose headers { date: 'Sat, 29 Oct 2016 09:34:16 GMT',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   etag: '"8CHKXD10QU7LCUN887XZR72C"',
+45 verbose headers   age: '218',
+45 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+45 verbose headers   'x-cache': 'HIT, MISS from ns2.bheljhs.co.in',
+45 verbose headers   'x-cache-hits': '10',
+45 verbose headers   'x-timer': 'S1477733656.812011,VS0,VE0',
+45 verbose headers   vary: 'Accept-Encoding',
+45 verbose headers   'x-cache-lookup': 'HIT from ns2.bheljhs.co.in:3128',
+45 verbose headers   via: '1.1 varnish, 1.0 ns2.bheljhs.co.in (squid/3.1.10)',
+45 verbose headers   connection: 'keep-alive' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Sat, 29 Oct 2016 09:34:16 GMT',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     etag: '"8CHKXD10QU7LCUN887XZR72C"',
+46 silly get     age: '218',
+46 silly get     'x-served-by': 'cache-sin6922-SIN',
+46 silly get     'x-cache': 'HIT, MISS from ns2.bheljhs.co.in',
+46 silly get     'x-cache-hits': '10',
+46 silly get     'x-timer': 'S1477733656.812011,VS0,VE0',
+46 silly get     vary: 'Accept-Encoding',
+46 silly get     'x-cache-lookup': 'HIT from ns2.bheljhs.co.in:3128',
+46 silly get     via: '1.1 varnish, 1.0 ns2.bheljhs.co.in (squid/3.1.10)',
+46 silly get     connection: 'keep-alive' } ]
+47 verbose etag http://registry.npmjs.org/angular from cache
+48 verbose get saving angular to C:\Users\BHEL\AppData\Roaming\npm-cache\registry.npmjs.org\angular\.cache.json
+49 verbose correctMkdir C:\Users\BHEL\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+50 silly addNameTag next cb for angular with tag latest
+51 silly addNamed angular@1.5.8
+52 verbose addNamed "1.5.8" is a plain semver version for angular
+53 silly cache afterAdd angular@1.5.8
+54 verbose afterAdd C:\Users\BHEL\AppData\Roaming\npm-cache\angular\1.5.8\package\package.json not in flight; writing
+55 verbose correctMkdir C:\Users\BHEL\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+56 verbose afterAdd C:\Users\BHEL\AppData\Roaming\npm-cache\angular\1.5.8\package\package.json written
+57 http 404 http://registry.npmjs.org/1.7
+58 verbose headers { 'content-type': 'application/json',
+58 verbose headers   'cache-control': 'max-age=0',
+58 verbose headers   'content-length': '2',
+58 verbose headers   'accept-ranges': 'bytes',
+58 verbose headers   date: 'Sat, 29 Oct 2016 09:34:17 GMT',
+58 verbose headers   age: '0',
+58 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+58 verbose headers   'x-cache': 'MISS, MISS from ns2.bheljhs.co.in',
+58 verbose headers   'x-cache-hits': '0',
+58 verbose headers   'x-timer': 'S1477733656.789346,VS0,VE937',
+58 verbose headers   vary: 'Accept-Encoding',
+58 verbose headers   'x-cache-lookup': 'MISS from ns2.bheljhs.co.in:3128',
+58 verbose headers   via: '1.1 varnish, 1.0 ns2.bheljhs.co.in (squid/3.1.10)',
+58 verbose headers   connection: 'keep-alive' }
+59 silly get cb [ 404,
+59 silly get   { 'content-type': 'application/json',
+59 silly get     'cache-control': 'max-age=0',
+59 silly get     'content-length': '2',
+59 silly get     'accept-ranges': 'bytes',
+59 silly get     date: 'Sat, 29 Oct 2016 09:34:17 GMT',
+59 silly get     age: '0',
+59 silly get     'x-served-by': 'cache-sin6926-SIN',
+59 silly get     'x-cache': 'MISS, MISS from ns2.bheljhs.co.in',
+59 silly get     'x-cache-hits': '0',
+59 silly get     'x-timer': 'S1477733656.789346,VS0,VE937',
+59 silly get     vary: 'Accept-Encoding',
+59 silly get     'x-cache-lookup': 'MISS from ns2.bheljhs.co.in:3128',
+59 silly get     via: '1.1 varnish, 1.0 ns2.bheljhs.co.in (squid/3.1.10)',
+59 silly get     connection: 'keep-alive' } ]
+60 verbose stack Error: Registry returned 404 for GET on http://registry.npmjs.org/1.7
+60 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+60 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:242:14)
+60 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+60 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+60 verbose stack     at emitTwo (events.js:87:13)
+60 verbose stack     at Request.emit (events.js:172:7)
+60 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+60 verbose stack     at emitOne (events.js:82:20)
+60 verbose stack     at Request.emit (events.js:169:7)
+60 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+61 verbose statusCode 404
+62 verbose pkgid 1.7
+63 verbose cwd C:\Users\BHEL\Documents\angular\coursera_angularlearn\module1-assignment
+64 error Windows_NT 10.0.10586
+65 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular" "1.7"
+66 error node v4.5.0
+67 error npm  v2.15.9
+68 error code E404
+69 error 404 Registry returned 404 for GET on http://registry.npmjs.org/1.7
+69 error 404
+69 error 404 '1.7' is not in the npm registry.
+69 error 404 You should bug the author to publish it (or use the name yourself!)
+69 error 404
+69 error 404 Note that you can also install from a
+69 error 404 tarball, folder, http url, or git url.
+70 verbose exit [ 1, true ]
